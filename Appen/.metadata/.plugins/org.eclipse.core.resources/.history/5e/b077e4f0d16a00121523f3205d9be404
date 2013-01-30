@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="Scripts/main.jsp"></script>
+</head>
+<body>
+<button>Dette er en knapp</button>
+<p> Hei på dere </p>
+</body>
+</html>
