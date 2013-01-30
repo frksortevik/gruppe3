@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+html {
+font-size:82.5%;
+}
+	
+body {
+margin:0;
+font-family: IGill Sans, sans-serif;
+font-size:14px;
+}
+
+/*********************************************************************
+HEADER
+*********************************************************************/
+#header_container {
+background-color:#006fac;
+-webkit-box-shadow:#006fac 0px 1px 5px 0px;
+    overflow:hidden;
+    z-index:20;
+}
+#overskrift{
+	
+	text-align:center;
+}
+
+h1,h3{
+    
+    font-family: impact;
+}
+
+#header h1 {
+        
+    font-size:50px;
+        margin-left:10px;	
+		color:white;
+		margin-left:15%;
+		margin-right:15%;
+}
+
+
+/*********************************************************************
+CONTAINER
+*********************************************************************/
+#content{
+	margin-left:15%;
+	margin-right:20%;
+	font-size:16px;
+	margin-top:5%;
+	height:auto;
+	margin-bottom:7%;
+	
+}
+/****************************Dokumenter******************************/
+
+
+/*Tenkte å lage en slags ramme rundt der man kan trykke på dokumentene. 
+Evt med en logo av et dokument i tillegg*/
+
+.doc {
+	color: white;
+	background-color:#006fac;
+	border-radius:3px;
+	height:100px;
+}
+#doc1 #doc2 #doc3 a{
+	text-decoration:none;
+	color: white;
+	font-size: 24px;
+}
+
+
+
+/*********************************************************************
+MENU
+*********************************************************************/
+
+ul#menu {
+	margin:10px 0 0 0;
+    padding:0px;
+    float:left;
+    font-size:1.3em;
+	margin-left:15%;
+	margin-right:15%;
+	list-style:none;
+        font-weight: bold;
+	
+}
+ ul#menu li {
+    padding:5px 5px 15px 0;
+    float:left;
+    margin-right:15px; 
+	color:white;
+	text-decoration:none; 
+	list-style-type:none;
+		     
+}
+	
+ul#menu a {
+    color:inherit;
+    text-decoration:none;
+    padding:8px 10px;
+    border-radius:3px;
+	list-style-type:none;
+}
+    
+ ul#menu a.current {
+     background-color:#1F75CD; 
+     color:inherit;
+ }
+
+ ul#menu a:hover {
+     background-color: white;
+     color:#006fac;
+}
+    
+/*********************************************************************
+FOOTER
+*********************************************************************/
+#footer_container {
+    color:black;
+    overflow:hidden;
+	bottom:0;
+	position:relative;
+	width:100%;
+	
+	 
+}
+
+#footer {
+    margin:0 auto;
+    padding:0 15px;
+    max-width:100%;
+    color:#000000; 
+    overflow:hidden;
+	margin-left:15%;
+	margin-right:0;
+	
+	
+}
+
+/*Streken på bunnen*/
+#footer_container hr {
+	margin-left:none;
+	margin-right:none;
+	width:100%;
+        height: 5px;
+	background-color: black;
+   
+        border-color:#1F75CD;
+}
+	
+
+#footer p {
+    margin:10px 0;
+    font-size:11px;
+}
+
+#footer a img {
+    border:0;
+}
+
+#footer_main {
+    margin:10px 25px 10px 0;
+    float:left;
+}
+
+#footer_hioa {
+    height:100px;
+    margin-top:10px;
+	padding:5px 10px;
+    float:left;
+	
+}
+#footer_iterate {
+    height:100px;
+    margin-top:10px;
+	 padding:5px 10px;
+    float:left;
+}
+
